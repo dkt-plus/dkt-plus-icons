@@ -1,0 +1,3 @@
+<template>
+  <aim></aim>
+</template>

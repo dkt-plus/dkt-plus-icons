@@ -1,0 +1,29 @@
+{
+  "name": "@dkt-plus/icons-svg",
+  "version": "1.0.0",
+  "private": false,
+  "description": "SVG icon for Dkt Plus Icons collection.",
+  "keywords": [
+    "icon",
+    "svg",
+    "dkt-plus"
+  ],
+  "homepage": "https://github.com/dkt-plus/dkt-plus#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkt-plus/dkt-plus-icons.git",
+    "directory": "packages/svg"
+  },
+  "bugs": {
+    "url": "https://github.com/dkt-plus/dkt-plus-icons/issues"
+  },
+  "files": [
+    "*.svg"
+  ],
+  "devDependencies": {
+    "svgo": "^2.8.0"
+  },
+  "scripts": {
+    "optimize": "svgo -f . -o ."
+  }
+}
