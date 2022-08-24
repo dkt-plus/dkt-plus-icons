@@ -1,22 +1,21 @@
 {
-  "name": "@element-plus/icons-vue",
-  "version": "1.1.4",
-  "description": "Vue components of Element Plus Icons collection.",
+  "name": "@dkt-plus/icons-vue",
+  "version": "1.0.0",
+  "description": "Vue components of Dkt Plus Icons collection.",
   "keywords": [
     "icon",
     "svg",
     "vue",
-    "element-plus"
+    "dkt-plus"
   ],
-  "license": "MIT",
-  "homepage": "https://element-plus.org/",
+  "homepage": "https://github.com/dkt-plus/dkt-plus#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus-icons.git",
+    "url": "git+https://github.com/dkt-plus/dkt-plus-icons.git",
     "directory": "packages/vue"
   },
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus-icons/issues"
+    "url": "https://github.com/dkt-plus/dkt-plus-icons/issues"
   },
   "files": [
     "dist"
@@ -55,7 +54,7 @@
     "vue": "^3.2.0"
   },
   "devDependencies": {
-    "@element-plus/icons-svg": "^1.1.4",
+    "@dkt-plus/icons-svg": "^1.0.0",
     "@types/fs-extra": "^9.0.13",
     "@types/prettier": "^2.4.4",
     "camelcase": "^6.3.0",
@@ -73,8 +72,5 @@
     "unplugin-vue": "^2.0.0",
     "vue": "^3.2.31",
     "vue-tsc": "^0.33.9"
-  },
-  "dependencies": {
-    "@element-plus/icons-vue": "^2.0.9"
   }
 }

@@ -11,7 +11,7 @@ import { pathSrc } from "./paths";
 import type { BuiltInParserName } from "prettier";
 
 const getSvgFiles = async () => {
-  const { rootPath } = await getPackageInfo("@element-plus/icons-svg");
+  const { rootPath } = await getPackageInfo("@dkt-plus/icons-svg");
   console.log(rootPath);
   return glob("*.svg", { cwd: rootPath, absolute: true });
 };

@@ -26,7 +26,7 @@ const buildBundled = async (minify: boolean) => {
     bundle.write({
       format: "iife",
       file: path.resolve(pathOutput, `index.iife${minify ? ".min" : ""}.js`),
-      name: "ElementPlusIconsVue",
+      name: "DktPlusIconsVue",
       globals: { vue: "Vue" },
     }),
   ];
