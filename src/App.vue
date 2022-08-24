@@ -1,3 +1,3 @@
 <template>
-  <aim></aim>
+  <AlertLine></AlertLine>
 </template>
