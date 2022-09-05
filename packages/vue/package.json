@@ -1,6 +1,6 @@
 {
   "name": "@dkt-plus/icons-vue",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Vue components of Dkt Plus Icons collection.",
   "keywords": [
     "icon",
@@ -54,7 +54,7 @@
     "vue": "^3.2.0"
   },
   "devDependencies": {
-    "@dkt-plus/icons-svg": "^1.0.0",
+    "@dkt-plus/icons-svg": "^1.0.2",
     "@types/fs-extra": "^9.0.13",
     "@types/prettier": "^2.4.4",
     "camelcase": "^6.3.0",
