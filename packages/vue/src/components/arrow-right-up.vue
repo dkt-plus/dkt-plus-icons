@@ -1,0 +1,20 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="m10.67 6.276-5.74 5.738-.942-.943 5.737-5.738H4.669V4h7.334v7.333h-1.334V6.276Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'ArrowRightUp',
+})
+</script>

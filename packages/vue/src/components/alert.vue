@@ -1,0 +1,22 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="m14.612 13.333-6.35-11a.667.667 0 0 0-1.155 0l-6.351 11a.667.667 0 0 0 .577 1h12.702a.667.667 0 0 0 .577-1ZM12.88 13H2.488l5.196-9 5.196 9Zm-5.863-2h1.334v1.333H7.017V11Zm1.334-4.667H7.017v3.334h1.334V6.333Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Alert',
+})
+</script>

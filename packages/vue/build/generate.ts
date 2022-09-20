@@ -7,7 +7,7 @@ import glob from "fast-glob";
 import { getPackageInfo } from "local-pkg";
 import { format } from "prettier";
 import chalk from "chalk";
-import { pathSrc } from "./paths";
+import { pathSrc, pathComponents } from "./paths";
 import type { BuiltInParserName } from "prettier";
 
 const getSvgFiles = async () => {
@@ -48,7 +48,7 @@ ${content}
 </script>`,
     "vue"
   );
-  writeFile(path.resolve(pathSrc, `${filename}.vue`), vue, "utf-8");
+  writeFile(path.resolve(pathComponents, `${filename}.vue`), vue, "utf-8");
 };
 
 const generateEntry = async (files: string[]) => {
@@ -60,12 +60,14 @@ const generateEntry = async (files: string[]) => {
       })
       .join("\n")
   );
-  await writeFile(path.resolve(pathSrc, "index.ts"), code, "utf-8");
+  const entryCode = formatCode(`export * from "./components";`);
+  await writeFile(path.resolve(pathComponents, "index.ts"), code, "utf-8");
+  await writeFile(path.resolve(pathSrc, "index.ts"), entryCode, "utf-8");
 };
 
 (async () => {
   consola.info(chalk.blue("generating vue components"));
-  await emptyDir(pathSrc);
+  await emptyDir(pathComponents);
   const files = await getSvgFiles();
   consola.info(chalk.blue("generating vue files"));
   await Promise.all(files.map(file => transformToVueComponent(file)));

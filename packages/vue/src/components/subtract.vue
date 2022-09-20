@@ -1,0 +1,17 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path d="M3.333 7.333h9.334v1.334H3.333V7.333Z" fill="currentColor" />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Subtract',
+})
+</script>

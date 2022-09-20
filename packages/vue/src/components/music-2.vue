@@ -1,0 +1,20 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M13.333 2v9.333A2.667 2.667 0 1 1 12 9.023v-5.69H6v8a2.667 2.667 0 1 1-1.333-2.31V2h8.666Zm-10 10.667a1.333 1.333 0 1 0 0-2.667 1.333 1.333 0 0 0 0 2.667Zm7.334 0a1.333 1.333 0 1 0 0-2.667 1.333 1.333 0 0 0 0 2.667Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Music2',
+})
+</script>

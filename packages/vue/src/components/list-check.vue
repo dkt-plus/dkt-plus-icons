@@ -1,0 +1,20 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M5.333 2.667H14V4H5.333V2.667ZM2 2.333h2v2H2v-2ZM2 7h2v2H2V7Zm0 4.667h2v2H2v-2Zm3.333-4.334H14v1.334H5.333V7.333Zm0 4.667H14v1.333H5.333V12Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'ListCheck',
+})
+</script>

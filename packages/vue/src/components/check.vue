@@ -1,0 +1,20 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="m6.667 10.115 6.128-6.129.943.943L6.667 12 2.424 7.757l.943-.942 3.3 3.3Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Check',
+})
+</script>

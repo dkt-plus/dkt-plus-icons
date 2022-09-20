@@ -1,0 +1,20 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M6.649 12h.684V8.667h1.334V12h.684c.088-.801.497-1.463 1.16-2.185.076-.081.555-.578.612-.648a4 4 0 1 0-6.247-.002c.057.072.538.569.612.65.664.722 1.073 1.384 1.16 2.185Zm.018 1.333V14h2.666v-.667H6.667ZM3.836 10a5.333 5.333 0 1 1 8.327.001c-.414.515-1.496 1.332-1.496 2.332V14a1.333 1.333 0 0 1-1.334 1.333H6.667A1.333 1.333 0 0 1 5.333 14v-1.667c0-1-1.083-1.817-1.497-2.333Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Lightbulb',
+})
+</script>

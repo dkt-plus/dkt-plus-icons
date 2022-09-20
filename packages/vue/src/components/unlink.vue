@@ -1,0 +1,20 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M11.333 11.333h3.334v1.334h-2v2h-1.334v-3.334ZM4.667 4.667H1.333V3.333h2v-2h1.334v3.334Zm7.576 5.69-.943-.944.943-.942a3.334 3.334 0 1 0-4.714-4.714l-.943.943-.943-.943.944-.942a4.667 4.667 0 1 1 6.6 6.6l-.944.942Zm-1.886 1.886-.943.942a4.667 4.667 0 0 1-6.6-6.6l.943-.942.943.944-.943.942a3.333 3.333 0 1 0 4.714 4.714l.943-.942.943.942ZM9.885 5.17l.944.944-4.714 4.713-.944-.943 4.714-4.713Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Unlink',
+})
+</script>

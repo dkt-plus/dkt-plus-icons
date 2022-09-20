@@ -1,0 +1,22 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M8 1.333A6.67 6.67 0 0 1 14.667 8 6.67 6.67 0 0 1 8 14.667 6.67 6.67 0 0 1 1.333 8 6.67 6.67 0 0 1 8 1.333Zm0 12A5.332 5.332 0 0 0 13.333 8 5.332 5.332 0 0 0 8 2.667 5.332 5.332 0 0 0 2.667 8 5.332 5.332 0 0 0 8 13.333Zm.667-2.666V8h2L8 5.333 5.333 8h2v2.667h1.334Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'ArrowUpCircle',
+})
+</script>

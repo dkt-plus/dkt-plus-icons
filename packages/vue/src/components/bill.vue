@@ -1,0 +1,22 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fill-rule="evenodd"
+      clip-rule="evenodd"
+      d="M2.667 14.667h10.666A.667.667 0 0 0 14 14V2a.667.667 0 0 0-.667-.667H2.667A.667.667 0 0 0 2 2v12c0 .368.298.667.667.667Zm10-12v10.666H3.333V2.667h9.334ZM5.333 6h5.334v1.333H5.333V6Zm5.334 2.667H5.333V10h5.334V8.667Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Bill',
+})
+</script>

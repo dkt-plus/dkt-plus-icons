@@ -1,0 +1,20 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M1.282 6.247c-.34-.137-.336-.34.023-.46l12.724-4.241c.352-.117.554.08.456.425l-3.636 12.724c-.1.353-.317.369-.478.047L7.333 8.667l-6.051-2.42Zm3.26-.134 3.757 1.504 2.027 4.054 2.364-8.273-8.149 2.715h.001Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'SendPlane',
+})
+</script>

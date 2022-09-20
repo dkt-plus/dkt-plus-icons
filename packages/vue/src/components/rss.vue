@@ -1,0 +1,20 @@
+<template>
+  <svg
+    width="16"
+    height="16"
+    viewBox="0 0 16 16"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M2 11.333A2.667 2.667 0 0 1 4.667 14H2v-2.667Zm0-4.666A7.333 7.333 0 0 1 9.333 14H8a6 6 0 0 0-6-6V6.667ZM2 2c6.627 0 12 5.373 12 12h-1.333C12.667 8.109 7.89 3.333 2 3.333V2Z"
+      fill="currentColor"
+    />
+  </svg>
+</template>
+<script lang="ts">
+import { defineComponent } from 'vue'
+export default defineComponent({
+  name: 'Rss',
+})
+</script>
