@@ -1,3 +1,9 @@
+/*
+ * @Author: Nio
+ * @Date: 2022-05-10 16:01:31
+ * @Description:
+ * @FilePath: /dkt-plus-icons/packages/vue/build/generate.ts
+ */
 import path from "path";
 import { readFile, writeFile } from "fs/promises";
 import { emptyDir } from "fs-extra";
@@ -9,10 +15,8 @@ import { format } from "prettier";
 import chalk from "chalk";
 import { pathSrc, pathComponents } from "./paths";
 import type { BuiltInParserName } from "prettier";
-
 const getSvgFiles = async () => {
-  const { rootPath } = await getPackageInfo("@dkt-plus/icons-svg");
-  console.log(rootPath);
+  const { rootPath } = (await getPackageInfo("@dkt-plus/icons-svg"))!;
   return glob("*.svg", { cwd: rootPath, absolute: true });
 };
 
@@ -54,7 +58,7 @@ ${content}
 const generateEntry = async (files: string[]) => {
   const code = formatCode(
     files
-      .map(file => {
+      .map((file) => {
         const { filename, componentName } = getName(file);
         return `export { default as ${componentName} } from './${filename}.vue'`;
       })
@@ -70,7 +74,7 @@ const generateEntry = async (files: string[]) => {
   await emptyDir(pathComponents);
   const files = await getSvgFiles();
   consola.info(chalk.blue("generating vue files"));
-  await Promise.all(files.map(file => transformToVueComponent(file)));
+  await Promise.all(files.map((file) => transformToVueComponent(file)));
   consola.info(chalk.blue("generating entry file"));
   await generateEntry(files);
 })();

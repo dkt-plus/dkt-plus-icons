@@ -1,6 +1,6 @@
 {
   "name": "@dkt-plus/icons-vue",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Vue components of Dkt Plus Icons collection.",
   "keywords": [
     "icon",
@@ -25,12 +25,24 @@
   "types": "index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/index.cjs",
-      "import": "./dist/index.js"
+      "require": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/index.cjs"
+      },
+      "import": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/index.js"
+      }
     },
     "./global": {
-      "require": "./dist/global.cjs",
-      "import": "./dist/global.js"
+      "require": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/global.cjs"
+      },
+      "import": {
+        "types": "./dist/types/index.d.ts",
+        "default": "./dist/global.js"
+      }
     },
     "./*": "./*"
   },
